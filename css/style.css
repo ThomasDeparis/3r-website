@@ -77,7 +77,7 @@ p {
 li {
 	font-family: 'Open Sans', sans-serif;
 	font-size:15px;
-	line-height:10px;
+	line-height:24px;
 	font-weight:400;
 	padding-bottom:38px;
 	margin-left:30px;
@@ -588,6 +588,9 @@ header {
 .technical .container {
 	padding-top:50px;
 }
+.technical .heading {
+	padding-bottom:30px;
+}
 .technical .heading p {
 	padding-bottom:41px;
 	max-width:660px;
@@ -596,12 +599,14 @@ header {
 	margin:0 auto;
 }
 .technical p {
-	color:#897f8a;
-	
+	color:#897f8a;	
+}
+.technical ul {
+	color:#897f8a;	
 }
 .technical h2 {
 	color:#5b4c5c;
-	margin-bottom:49px;
+	text-align: center;
 }
 
 .technical h3 {
@@ -684,8 +689,8 @@ header {
 	background:#f8f7f8;
 }
 .exprience .container {
-	padding-top:116px;
-	padding-bottom:120px;
+	padding-top:50px;
+	padding-bottom:50px;
 }
 .exprience h2 {
 	color:#5b4c5c;
@@ -694,7 +699,9 @@ header {
 .exprience p {
 	color:#84868d;
 	/*font-size:13px;*/
-	line-height:18px;
+}
+.exprience ul {
+	color:#84868d;	
 }
 .exprience .heading p {
 	padding-bottom:54px;
@@ -704,6 +711,9 @@ header {
 	margin:0 auto;
 	color:#897f8a;
 	line-height:27px;
+}
+.exprience h3 {
+	color:#5b4c5c;
 }
 .exprience h4 {
 	font-weight:700;
@@ -1056,12 +1066,16 @@ ul.portfolioContainer li:hover span.hoverBox .linKed {
 	background:#f8f7f8;
 	}
 .reffernces .container{
-	 padding-bottom: 123px;
-    padding-top: 123px;
-	}
+	 padding-bottom: 60px;
+    padding-top: 60px;
+}
 .reffernces h2 {
 	color:#5b4c5c;
+	line-height: 24px;
 	margin-bottom:49px;
+}
+.reffernces h3 {
+	color:#5b4c5c;
 }
 .reffernces .heading p{
 	padding-bottom:41px;
@@ -1078,7 +1092,7 @@ ul.portfolioContainer li:hover span.hoverBox .linKed {
 	}
 .refBoxcon{
 	background:#FFF;
-	padding:50px 34px 41px;
+	padding:15px 40px 10px;
 	border-bottom:#e6e6e6 5px solid;
 	}
 .refBoxcon p{
@@ -1095,7 +1109,8 @@ ul.portfolioContainer li:hover span.hoverBox .linKed {
 .refBoxcon h4{
 	color:#4c404d;
 	font-size:16px;
-	font-weight:normal;
+	font-weight:bold;
+	text-align: center;
 	}
 .refBox{
 	padding:0 10px;
@@ -1154,8 +1169,8 @@ ul.portfolioContainer li:hover span.hoverBox .linKed {
 	background:#ffffff;
 }
 .contactDetails .container {
-	padding-top:15px;
-	padding-bottom:120px;
+	padding-top:50px;
+	padding-bottom:40px;
 }
 .contactDetails h4 {
 	font-weight:600;
@@ -1165,9 +1180,10 @@ ul.portfolioContainer li:hover span.hoverBox .linKed {
 .contactDetails p {
 	color:#897f8a;
 	font-size:15px;
-	line-height:19px;
+	line-height:27px;
 	padding-bottom:14px;
 }
+
 .contactDetails p a {
 	color:#897f8a;
 }
@@ -1251,7 +1267,7 @@ ul.portfolioContainer li:hover span.hoverBox .linKed {
 	background:#3b323c;
 }
 .footer .container {
-	padding:115px 0 125px;
+	padding:50px 0 50px;
 	position:relative;
 }
 .footer ul {
