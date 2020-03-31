@@ -1,5 +1,5 @@
 
-(function($) { 
+/*(function($) { 
 	"use strict";
 jQuery(document).ready(function(){
 	$('#cform').submit(function(){
@@ -34,4 +34,4 @@ jQuery(document).ready(function(){
 	});
 
 });
-}(jQuery));
+}(jQuery));*/
